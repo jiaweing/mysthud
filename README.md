@@ -1,9 +1,9 @@
 Credits
 --------
 HUD Elements
-- rayshud - [github](http://huds.tf/forum/showthread.php?tid=377), [huds.tf](https://github.com/raysfire/rayshud)
-- ToonHUD - [github](http://huds.tf/forum/showthread.php?tid=234), [website](http://toonhud.com/)
-- aHUD - [github](http://huds.tf/forum/showthread.php?tid=191), [huds.tf](https://github.com/n0kk/ahud)
+- rayshud - [github](http://huds.tf/forum/showthread.php?tid=377), [huds.tf](https://github.com/raysfire/rayshud) (Original HUD)
+- ToonHUD - [github](http://huds.tf/forum/showthread.php?tid=234), [website](http://toonhud.com/) (forgot what elements are taken from this hud)
+- aHUD - [github](http://huds.tf/forum/showthread.php?tid=191), [huds.tf](https://github.com/n0kk/ahud) (Chat)
 - and a few other huds that I forgot as this was made years ago
 
 Sound Files
