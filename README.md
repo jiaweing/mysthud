@@ -1,5 +1,3 @@
-# mystHUD
-
 Credits
 --------
 HUDs
@@ -36,7 +34,7 @@ I do not make huds, thus you may find certain elements of the hud broken.
 Installation
 --------
 1. Press `Download ZIP` on Github. This will download `rayshud-master.zip`.
-2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`.
+2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\mystHUD`.
 3. Extract .zip file contents into the `custom` folder.
 4. Ensure that the final file structure should resembles the following
 ```
