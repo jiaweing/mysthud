@@ -1,5 +1,4 @@
 # mystHUD
-myst's edits of rayshud
 
 Credits
 --------
@@ -16,6 +15,10 @@ Sound Files
 Others
 - Class Portraits - [IS A Puddy](https://gamebanana.com/guis/30962)
 
+Screenshots
+--------
+[Album](https://imgur.com/a/eX0ed)
+
 About
 --------
 This hud was made by rayshud, currently maintained by CriticalFlaw. This hud is a hud for Team Fortress 2, it combines a few elements from multiple other huds but with rayshud as its main.
@@ -29,3 +32,27 @@ Updates
 You can expect this hud to be updated pretty regularly. The updates will mostly be forked over from CriticalFlaw's rayshud as soon as he updates it.
 
 I do not make huds, thus you may find certain elements of the hud broken.
+
+Installation
+--------
+1. Press `Download ZIP` on Github. This will download `rayshud-master.zip`.
+2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`.
+3. Extract .zip file contents into the `custom` folder.
+4. Ensure that the final file structure should resembles the following
+```
+tf
+└── custom
+    └── mystHUD
+        ├── materials
+        ├── resource
+        ├── scripts
+        ├── sound
+        ├── README.md
+        └── info.vdf
+```
+5. Restart your game.
+
+Uninstall
+--------
+1. Close your game.
+2. Delete the folder you installed from your tf/custom directory
