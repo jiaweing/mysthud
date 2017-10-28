@@ -25,6 +25,10 @@ I like rayshud, which is why I am NOT going to edit most of the contents. My edi
 
 This edit is published for fans who like this version of rayshud.
 
+Difference
+--------
+The most obvious difference in this edit is changing the cyan to white. I am not a big fan of rayshud's cyan color. Another big change is making most hud elements white in color, rather than using the default TF2's dull white color.
+
 Updates
 --------
 You can expect this hud to be updated pretty regularly. The updates will mostly be forked over from CriticalFlaw's rayshud as soon as he updates it.
