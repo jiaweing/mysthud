@@ -11,7 +11,7 @@
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
-		"MeterBG"		"0 0 0 100"
+		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -42,7 +42,7 @@
 		"ypos"					"0"
 		"xpos_minmode"			"9999"
 		"ypos_minmode"			"9999"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"150"
 		"tall"					"8"
 		"autoResize"			"1"
