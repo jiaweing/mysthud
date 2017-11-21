@@ -54,6 +54,12 @@ tf
 ```
 5. Restart your game.
 
+Updating
+--------
+1. Uninstall the hud by deleting the folder you installed from your tf/custom directory.
+2. Download the [latest release](https://github.com/Built-by-Titan/mystHUD/releases/latest) and follow the installation instructions from above.
+3. Restart your game.
+
 Uninstall
 --------
 1. Close your game.
