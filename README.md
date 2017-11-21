@@ -19,11 +19,11 @@ Screenshots
 
 About
 --------
-This hud was made by rayshud, currently maintained by CriticalFlaw. This hud is a hud for Team Fortress 2, it combines a few elements from multiple other huds but with rayshud as its main.
+This hud was made by rayshud, currently maintained by CriticalFlaw. This hud is a custom game ui modification for Team Fortress 2, it combines a few elements from multiple other huds but with rayshud as its main.
 
-I like rayshud, which is why I am NOT going to edit most of the contents. My edits are only certain elements that I find very 'off', or can be improved on to my liking.
+I like rayshud, which is why I am NOT going to edit most of the contents. My edits are only certain elements that I find very 'off', or can be improved to my liking.
 
-This edit is published for fans who like this version of rayshud.
+This edit is published for fans who like my version of rayshud.
 
 Difference
 --------
@@ -33,12 +33,12 @@ Updates
 --------
 You can expect this hud to be updated pretty regularly. The updates will mostly be forked over from CriticalFlaw's rayshud as soon as he updates it.
 
-I do not make huds, thus you may find certain elements of the hud broken.
+I do not make huds and have limited knowledge on it, thus you may find certain elements of the hud broken.
 
 Installation
 --------
 1. Press `Download ZIP` on Github. This will download `rayshud-master.zip`.
-2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom\mystHUD`.
+2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`.
 3. Extract .zip file contents into the `custom` folder.
 4. Ensure that the final file structure should resembles the following
 ```
