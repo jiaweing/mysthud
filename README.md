@@ -3,7 +3,7 @@ Credits
 HUD Elements
 - rayshud - [github](https://github.com/raysfire/rayshud), [huds.tf](https://github.com/raysfire/rayshud) (Original HUD)
 - ToonHUD - [website](http://toonhud.com/), [website](http://huds.tf/forum/showthread.php?tid=234) (Boss Health Bar, Casual/Competitive Timer HUD Gradient)
-- aHUD - [github](https://github.com/n0kk/ahud), [huds.tf](http://huds.tf/forum/showthread.php?tid=191) (Chat)
+- aHUD - [github](https://github.com/n0kk/ahud), [huds.tf](http://huds.tf/forum/showthread.php?tid=191) (Chat, Custom Control Point Icons)
 - and a few other huds that I forgot as this was made years ago
 
 Sound Files
