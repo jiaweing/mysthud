@@ -157,11 +157,11 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"0 0 0 100"
 	
 	}
 	
-		"ChargeMeter2"
+	"ChargeMeter2"
 	{
 		"ControlName" 		"ContinuousProgressBar"
 		"fieldName" 		"ChargeMeter2"
@@ -178,7 +178,7 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"0 0 0 100"
 	}
 
 	"ChargeMeter3"
@@ -198,7 +198,7 @@
 		"textAlignment" 	"Left"
 		"dulltext" 			"0"
 		"brighttext" 		"0"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"0 0 0 100"
 	}
 
 	"ChargeMeter4"
@@ -218,7 +218,7 @@
 		"textAlignment" "Left"
 		"dulltext" 		"0"
 		"brighttext" 	"0"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"0 0 0 100"
 	}
 
 	"ChargeMeterLabel"
@@ -271,4 +271,3 @@
 		
 	}	
 }
-

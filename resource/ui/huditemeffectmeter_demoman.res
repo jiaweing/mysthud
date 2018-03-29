@@ -12,7 +12,7 @@
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"0 0 0 50"
 	}
 	
 	"ItemEffectMeterBG"
