@@ -155,6 +155,36 @@
 		"scaleImage"	"1"
 	}
 	
+	"KillStreakIconAnchor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"KillStreakIconAnchor"
+		"xpos"				"2"
+		"ypos"				"18"
+		"wide"				"8"
+		"tall"				"8"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+
+	"KillStreakIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"KillStreakIcon"
+		"xpos"				"0"
+		"ypos"				"1"
+		"zpos"				"12"
+		"wide"				"12"
+		"tall"				"12"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../hud/leaderboard_streak"
+		"scaleImage"		"1"
+		"pin_to_sibling"	"KillStreakIconAnchor"
+		"pin_corner_to_sibling" "1"
+		"pin_to_sibling_corner" "1"
+	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"

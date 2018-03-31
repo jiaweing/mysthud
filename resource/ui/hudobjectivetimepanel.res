@@ -71,8 +71,8 @@
 		{
 			"proportionaltoparent"	"1"
 			"wide"					"36"
-			"xpos"					"2"
-			"ypos"					"18"
+			"xpos"					"37"
+			"ypos"					"25"
 			"font"					"HudFontSmallestBold"
 		}
 	}			
