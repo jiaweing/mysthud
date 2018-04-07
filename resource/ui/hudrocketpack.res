@@ -6,10 +6,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r95"	[$WIN32]
-		"xpos_minmode"	"r85"	[$WIN32]
+		"xpos"			"r235"	[$WIN32]
 		"ypos"			"r105"	[$WIN32]
-		"ypos_minmode"	"r105"	[$WIN32]
 		"wide"			"94"
 		"tall"			"45"
 	}
@@ -40,8 +38,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"2"
+		"ypos"			"-2"
 		"ypos_minmode"	"15"
 		"zpos"			"2"
 		"wide"			"32"

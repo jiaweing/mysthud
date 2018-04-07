@@ -134,7 +134,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -221,35 +221,21 @@
 			"image"		"../console/background_xmas2011_widescreen"
 		}		
 	}
-					
-	"TFLogoImage"
+	
+	"HudNameBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"TFLogoImage"
-		"xpos"			"c-290"
-		"ypos"			"32"
-		"zpos"			"1"
-		"wide"			"256"
-		"tall"			"64"
+		"fieldName"		"HudNameBG"
+		"xpos"			"125"
+		"ypos"			"0"
+		"zpos"			"-55"
+		"wide"			"280"
+		"tall"			"450"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-	}	
-	
-	"TFCharacterImage"
-	{
-		// "ControlName"	"ImagePanel"
-		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
-		"ypos"			"-80"
-		"zpos"			"-99"
-		"wide"			"600"
-		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
+		"fillcolor"		"0 0 0 100"
 	}
 
 	"RankModelPanel"
@@ -257,7 +243,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
 		"xpos"			"cs-0.5-256"
-		"ypos"			"cs-0.5-120"
+		"ypos"			"cs-0.5-170"
 
 		"zpos"			"-51"
 		"wide"			"1000"
@@ -276,7 +262,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
 		"xpos"			"cs-0.5-44"
-		"ypos"			"cs-0.5-134"
+		"ypos"			"cs-0.5-184"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -330,7 +316,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
 		"xpos"			"c-285"
-		"ypos"			"99"
+		"ypos"			"89"
 		"zpos"			"-1"
 		"wide"			"8"
 		"tall"			"8"
@@ -347,7 +333,7 @@
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
 		"xpos"			"c-350"
-		"ypos"			"72"
+		"ypos"			"22"
 		"zpos"			"-52"
 		"wide"			"320"
 		"tall"			"100"
@@ -366,7 +352,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
 		"xpos"			"c-290"
-		"ypos"			"94"
+		"ypos"			"44"
 		"zpos"			"-99"
 		"wide"			"260"
 		"tall"			"100"
@@ -389,7 +375,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
 		"xpos"			"c-285"
-		"ypos"			"107"
+		"ypos"			"57"
 		"zpos"			"-99"
 		"wide"			"30"
 		"tall"			"30"
@@ -405,13 +391,13 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RankBorder"
 		"xpos"			"c-290"
-		"ypos"			"94"
+		"ypos"			"44"
 		"zpos"			"-100"
 		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 	}
 	
@@ -1309,7 +1295,7 @@
 		"tall"			"38"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
 	}
 
 	"VRModeButton"
@@ -1389,48 +1375,49 @@
 		"tall"			"f0"
 		"visible"		"0"
 	}
-
+	
+	"TitleLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabel"
+		"font"			"HudFontSmallBold"
+		"labelText"		"#TF_Competitive_Friends"
+		"textAlignment"	"west"
+		"xpos"			"c-282"
+		"ypos"			"110"
+		"zpos"			"505"
+		"wide"			"f0"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textinsetx"	"0"
+		"fgcolor_override"	"255 255 255 255"
+	}
+	
 	"FriendsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-290"
-		"ypos"			"260"
+		"ypos"			"135"
 		"zpos"			"5"
 		"wide"			"260"
-		"tall"			"150"
+		"tall"			"265"
 		"visible"		"1"
 
-		"border"		"MainMenuBGBorder"
-
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
-			"labelText"		"#TF_Competitive_Friends"
-			"textAlignment"	"west"
-			"xpos"			"12"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"fgcolor_override"	"255 255 255 255"
-		}
+		"border"		"NoBorder"
 
 		"InnerShadow"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"InnerShadow"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-0"
 			"zpos"			"501"
 			"wide"			"f10"
-			"tall"			"110"
+			"tall"			"265"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1445,10 +1432,10 @@
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-0"
 			"zpos"			"500"
 			"wide"			"f10"
-			"tall"			"110"
+			"tall"			"265"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -1503,10 +1490,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"BelowDarken"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-0"
 			"zpos"			"499"
 			"wide"			"f10"
-			"tall"			"110"
+			"tall"			"265"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -1515,240 +1502,6 @@
 			"bgcolor_override"	"0 0 0 100"
 		}
 	}
-
-	"EventPromo"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"EventPromo"
-		"xpos"			"c-290"
-		"ypos"			"160"
-		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"96"
-		"visible"		"1"
-
-		"Background"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"260"
-//			"tall"			"120"
-			"tall"			"96"
-			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"12"
-				"ypos"			"0"
-				"wide"			"f0"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"	"0"
-				"fgcolor_override"	"255 255 255 255"
-			}
-
-//			"ViewDetailsGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewDetailsGlow"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewDetailsButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewDetailsButton"
-//				"xpos"			"p0.02"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewUpdateDetails"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_update_page"
-//					"actionsignallevel"	"4"
-//			
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//			
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "255 255 255 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//			
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"255 255 255 255"
-//				}
-//			}
-//
-//			"ViewWarButtonGlow"
-//			{
-//				"ControlName"	"Panel"
-//				"fieldName"		"ViewWarButtonGlow"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"10"
-//				"wide"			"124"
-//				"tall"			"26"
-//				"visible"		"0"
-//				"proportionaltoparent"	"1"
-//
-//				"paintborder"	"0"
-//				"border"	"MainMenuButtonGlow"
-//				"paintbackground"		"3"
-//				"bgcolor_override"	"238 103 17 255"
-//			}
-//
-//			"ViewWarButton"
-//			{
-//				"ControlName"	"EditablePanel"
-//				"fieldname"		"ViewWarButton"
-//				"xpos"			"p0.5"
-//				"ypos"			"27"
-//				"zpos"			"11"
-//				"wide"			"p0.48"
-//				"tall"			"26"
-//				"visible"		"1"
-//				"PaintBackgroundType"	"0"
-//				"proportionaltoparent"	"1"
-//
-//				"SubButton"
-//				{
-//					"ControlName"	"CExImageButton"
-//					"fieldName"		"SubButton"
-//					"xpos"			"cs-0.5"
-//					"ypos"			"0"
-//					"wide"			"f0"
-//					"tall"			"f0"
-//					"autoResize"	"0"
-//					"pinCorner"		"3"
-//					"visible"		"1"
-//					"enabled"		"1"
-//					"tabPosition"	"0"
-//					"use_proportional_insets" "1"
-//					"font"			"HudFontSmallBold"
-//					"textAlignment"	"center"
-//					"dulltext"		"0"
-//					"brighttext"	"0"
-//					"default"		"1"
-//					"sound_depressed"	"UI/buttonclick.wav"
-//					"sound_released"	"UI/buttonclickrelease.wav"
-//					"labeltext"		"#MMenu_ViewWar"
-//					"proportionaltoparent"	"1"
-//					"command"		"view_war"
-//					"actionsignallevel"	"4"
-//			
-//					"border_default"	"MainMenuButtonDefault"
-//					"border_armed"		"MainMenuButtonArmed"
-//					"paintbackground"	"0"
-//			
-//					"defaultFgColor_override" "46 43 42 255"
-//					"armedFgColor_override" "255 255 255 255"
-//					"depressedFgColor_override" "46 43 42 255"
-//			
-//					"image_drawcolor"	"117 107 94 255"
-//					"image_armedcolor"	"255 255 255 255"
-//				}
-//			}
-			
-			"CyclingAd"
-			{
-				"ControlName"			"CCyclingAdContainerPanel"
-				"fieldName"				"CyclingAd"
-				"xpos"					"5"
-//				"ypos"					"p0.47"
-				"ypos"					"27"
-				"zpos"					"100"
-				"wide"					"f10"
-//				"tall"					"p0.5"
-				"tall"					"60"
-				"visible"				"1"
-				"enabled"				"1"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
-
-				"bgcolor_override"		"0 0 0 255"
-
-				"items"
-				{
-					"0"
-					{
-						"item"		"Blue Moon Cosmetic Key"
-						"show_market"	"0"
-					}
-					"1"
-					{
-						"item"		"Jungle Inferno Contracts Pass"
-						"show_market"	"0"
-					}
-					"2"
-					{
-						"item"		"Winter 2017 Cosmetic Key"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Winter 2017 War Paint Key"
-						"show_market"	"0"
-					}					
-				}
-			}
-
-		} // Background
-
-	} // EventPromo
 
 	"SafeMode"
 	{
@@ -1775,7 +1528,7 @@
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"NoBorder"
 
 			"TitleLabel"
 			{
