@@ -10,9 +10,6 @@ Sound Files
 - Main Menu Themes (Rock Version) - [Friedrich Habetler Music
 ](https://www.youtube.com/channel/UCxNHoPzGagd7YxvWavZj8Ag)
 
-Others
-- Class Portraits - [IS A Puddy](https://gamebanana.com/guis/30962)
-
 Screenshots
 --------
 [Album](https://imgur.com/a/eX0ed)
