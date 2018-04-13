@@ -1385,7 +1385,6 @@
 		"textAlignment"	"west"
 		"xpos"			"c-282"
 		"ypos"			"110"
-		"zpos"			"505"
 		"wide"			"f0"
 		"tall"			"30"
 		"autoResize"	"0"
