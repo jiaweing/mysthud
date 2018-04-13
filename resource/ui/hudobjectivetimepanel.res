@@ -120,9 +120,8 @@
 		{
 			"proportionaltoparent"	"1"
 			"font"					"HudFontSmallestBold"
-			"textAlignment"		"center"
-			"xpos"					"c-35"
-			"wide"					"72"
+			"xpos"					"c0"
+			"wide"					"p1"
 			"ypos"					"22"
 			"font"			"Cerbetica10"
 
