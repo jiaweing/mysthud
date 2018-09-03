@@ -455,7 +455,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			""
-		"fgcolor"		"TanDark"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"PlayerStatus_RuneStrength"

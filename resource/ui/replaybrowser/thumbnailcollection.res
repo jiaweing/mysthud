@@ -56,7 +56,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wide"			"f0"
-		"fgcolor"		"255 0 0 255"
+		"fgcolor" "240 85 85 255"
 	}
 	"TitleLabel"
 	{
@@ -127,7 +127,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wide"			"f0"
-		"fgcolor_override" "200 128 255 255"
+		"fgcolor_override" "240 85 85 255"
 	}
 	"UnconvertedBg"
 	{

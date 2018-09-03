@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	
-		"ypos"			"c111"
+		"ypos"			"c113"
 		"ypos_minmode"	"c46"
-		"wide"			"500"
+		"wide"			"200"
 		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -28,21 +28,21 @@
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
+		"teambg_2"			"../hud/misc_ammo_area_horiz3_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"			"../hud/misc_ammo_area_horiz3_blue"
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
+		"xpos"					"125"
 		"ypos"					"0"
 		"xpos_minmode"			"9999"
 		"ypos_minmode"			"9999"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"150"
 		"tall"					"8"
 		"autoResize"			"1"
@@ -52,10 +52,10 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
-		"textAlignment"			"center"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cerbetica12"
+		"font"					"Cerbetica10"
 		"fgcolor_override"		"150 150 150 255"
 	}
 
@@ -68,7 +68,7 @@
 		"xpos_minmode"			"15"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"120"
 		"tall"					"8"
 		"wide_minmode"			"120"
 		"tall_minmode"			"5"
@@ -79,5 +79,5 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
 }

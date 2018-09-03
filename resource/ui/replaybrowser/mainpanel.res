@@ -137,7 +137,7 @@
 		{
 			"textinsetx"		"25"
 			"textAlignment"		"center"
-			"font"				"Cerbetica32"
+			"font"				"Cerbetica20"
 			"ypos"				"50"
 			"selectedcolor"		"TanLight"
 			"unselectedcolor"	"TanDark"	

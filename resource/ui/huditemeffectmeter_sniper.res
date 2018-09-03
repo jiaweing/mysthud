@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-75"	
-		"ypos"			"367"
-		"xpos_minmode"	"c-125"
-		"ypos_minmode"	"315"
+		"xpos"			"c25"
+		"ypos"			"355"
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
@@ -29,10 +27,10 @@
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_2"			"../hud/misc_ammo_area_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_3"			"../hud/misc_ammo_area_blue"
+		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -44,7 +42,7 @@
 		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"8"
+		"tall"					"12"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -66,7 +64,7 @@
 		"xpos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"6"	
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -74,7 +72,7 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}
 	
 	"ItemEffectMeterCount"
 	{
@@ -98,7 +96,8 @@
 		"font"					"CerbeticaBold28"
 		"font_minmode"			"CerbeticaBold16"
 	}
-		"ItemEffectMeterCountBackground"
+	
+	"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountBackground"

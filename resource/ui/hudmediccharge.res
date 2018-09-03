@@ -256,18 +256,34 @@
 		"image"			"../hud/ico_health_cluster"
 		"scaleImage"	"1"	
 	}
-
+	
+	"ResistIconAnchor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ResistIconAnchor"
+		"xpos"				"0"
+		"ypos"				"22"
+		"wide"				"25"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	
 	"ResistIcon"
 	{
-		"ControlName" 	"ImagePanel"
-		"fieldName" 	"ResistIcon"
-		"xpos" 			"0"
-		"ypos"			"0"
-		"wide" 			"28"
-		"tall" 			"28"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"image" 		"../HUD/defense_buff_bullet_blue"
-		
-	}	
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ResistIcon"
+		"xpos"				"0"
+		"ypos"				"20"
+		"wide"				"25"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../HUD/defense_buff_bullet_blue"
+		"scaleImage"		"1"
+
+		"pin_to_sibling"		"ResistIconAnchor"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
 }
