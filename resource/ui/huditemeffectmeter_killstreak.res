@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-225"	[$WIN32]
-		"ypos"			"352"	[$WIN32]
-		"xpos_minmode"	"c-162"	[$WIN32]
-		"ypos_minmode"	"298"	[$WIN32]
+		"xpos"			"10"	[$WIN32]
+		"ypos"			"440"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -56,7 +54,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"20"
+		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"6"
@@ -77,7 +75,7 @@
 		"ypos"					"10"
 		"zpos"					"2"
 		"wide"					"100"
-		"tall"					"25"
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -86,8 +84,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
-		"font_minmode"			"CerbeticaBold16"
+		"font"					"CerbeticaBold20"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -98,7 +95,7 @@
 		"ypos"					"-1"
 		"zpos"					"1"
 		"wide"					"100"
-		"tall"					"25"
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -108,8 +105,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CerbeticaBold28"
-		"font_minmode"			"CerbeticaBold16"
+		"font"					"CerbeticaBold20"
 
 		"pin_to_sibling"		"ItemEffectMeterCount"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
