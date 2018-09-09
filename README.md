@@ -6,8 +6,9 @@ HUDs
 - aHUD - [github](https://github.com/n0kk/ahud), [huds.tf](http://huds.tf/forum/showthread.php?tid=191) (Chat, Custom Control Point Icons)
 - and a few other huds that I forgot as this was made years ago
 
-Sounds
+Others
 - Friedrich Habetler Music - [YouTube](https://www.youtube.com/channel/UCxNHoPzGagd7YxvWavZj8Ag) (Main Menu Themes Rock Version)
+- Mr. Light - [YouTube](https://www.youtube.com/watch?v=bhZ8JV2C79A) (Main Menu BG)
 
 Screenshots
 ----
