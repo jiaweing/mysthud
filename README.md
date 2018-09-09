@@ -7,7 +7,7 @@ HUDs
 - and a few other huds that I forgot as this was made years ago
 
 Sounds
-- Main Menu Themes (Rock Version) by Friedrich Habetler Music - [YouTube](https://www.youtube.com/channel/UCxNHoPzGagd7YxvWavZj8Ag)
+- Friedrich Habetler Music - [YouTube](https://www.youtube.com/channel/UCxNHoPzGagd7YxvWavZj8Ag) (Main Menu Themes Rock Version)
 
 Screenshots
 ----
@@ -35,7 +35,7 @@ I do not make huds and have limited knowledge on it, therefore you may find the 
 
 Installation
 ----
-1. Press `[Download ZIP](https://github.com/my3t/mystHUD/archive/master.zip)` on Github. This will download `mystHUD-master.zip`.
+1. Download the [latest release](https://github.com/my3t/mystHUD/archive/master.zip). This will download `mystHUD-master.zip`.
 2. Navigate to `C:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`.
 3. Extract .zip file contents into the `custom` folder.
 4. Ensure that the final file structure should resembles the following.
