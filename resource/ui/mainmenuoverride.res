@@ -1482,7 +1482,7 @@
 		"tall"			"195"
 		"visible"		"1"
 		"border"			"NoBorder"
-		"bgcolor_override"	"TransparentPanelBG"
+		"bgcolor_override"	"0 0 0 135"
 
 		"TitleLabel"
 		{
