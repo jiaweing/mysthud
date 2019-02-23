@@ -9,7 +9,7 @@
 		"xpos"			"40"
 		"ypos"			"70"
 		"wide"	 		"210"
-		"tall"	 		"100"
+		"tall"	 		"300"
 		"PaintBackgroundType"	"1"
 	}
 
