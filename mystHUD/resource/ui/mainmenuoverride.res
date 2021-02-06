@@ -161,36 +161,36 @@
 		}
 	}
 	
-	//"Background"
-	//{
-	//	"ControlName"	"ImagePanel"
-	//	"fieldName"		"Background"
-	//	"xpos"			"0"
-	//	"ypos"			"0"
-	//	"zpos"			"-200"
-	//	"wide"			"f0"
-	//	"tall"			"480"
-	//	"visible"		"0"
-	//	"enabled"		"1"
-	//	"scaleImage"	"1"
-	//	"image"			""
-	//}
-	
 	"Background"
 	{
-		"ControlName" "ScalableImagePanel"
-		"fieldName" "Background"
-		"xpos" "0"
-		"ypos" "0"
-		"zpos" "-199"
-		"wide" "f0"
-		"tall" "f0"
-		"visible" "0"
-		"enabled" "1"
-		"image" "replay\thumbnails\menugif"
-		"scaleImage" "1"
-		"proportionaltoparent" "1"
+		"controlname"	"imagepanel"
+		"fieldname"		"background"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-200"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		"scaleimage"	"1"
+		"image"			""
 	}
+	
+	//"Background"
+	//{
+	//	"ControlName" "ScalableImagePanel"
+	//	"fieldName" "Background"
+	//	"xpos" "0"
+	//	"ypos" "0"
+	//	"zpos" "-199"
+	//	"wide" "f0"
+	//	"tall" "f0"
+	//	"visible" "0"
+	//	"enabled" "1"
+	//	"image" "replay\thumbnails\menugif"
+	//	"scaleImage" "1"
+	//	"proportionaltoparent" "1"
+	//}
 	
 	"HudNameBG"
 	{
